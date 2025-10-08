@@ -4,7 +4,7 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyCA9pqenhOluEuTF90DzTiEiPFzzxE6NxY',
+ 
   authDomain: 'remote-internship-66a70.firebaseapp.com',
   projectId: 'remote-internship-66a70',
   storageBucket: 'remote-internship-66a70.appspot.com',
@@ -15,3 +15,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const db = getFirestore(app);
+
